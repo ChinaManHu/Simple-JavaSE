@@ -11,8 +11,8 @@ public class Exercise07 {
 //        重写父类的equals(方法: public boolean equals(Object obj)
 //        并判断测试类中创建的两个对象是否相等,相等就是判断属性是否相同
         Doctor doctor1 = new Doctor("Hqt1", 21, "医生", '男', 666666);
-        Doctor doctor2 = new Doctor("Hqt2", 21, "医生", '男', 666666);
-        System.out.println(doctor1.equals(doctor1));
+        Doctor doctor2 = new Doctor("Hqt1", 21, "医生", '男', 666666);
+        System.out.println(doctor1.equals(doctor2));
     }
 }
 
